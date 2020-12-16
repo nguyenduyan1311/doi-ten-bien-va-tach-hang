@@ -7,12 +7,13 @@ class CalculatorTest extends TestCase
     public function testCalculateAdd()
     {
 
-        $expected = 8;
+        $expected = 2;
 
         $calculator = new Calculator();
-        $result = $calculator->calculate('5','3','ADDITION');
+        $result = $calculator->calculate('1', '1', 'ADDITION');
         $this->assertEquals($expected, $result);
     }
+
 
 
 }
